@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.batikapp.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.batikapp.activity.MainMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.HalamanDepan"
+            android:label="@string/title_activity_halaman_depan" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Produk"
+            android:label="@string/title_activity_produk" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Tentang"
+            android:label="@string/title_activity_tentang" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Registrasi"
+            android:label="@string/title_activity_registrasi" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Produk_item"
+            android:label="@string/title_activity_produk_item" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Profil"
+            android:label="@string/title_activity_profil" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Petunjuk"
+            android:label="@string/title_activity_petunjuk" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Daftar_produk"
+            android:label="@string/title_activity_daftar_produk" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Detail_Produk"
+            android:label="@string/title_activity_detail__produk" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Cart"
+            android:label="@string/title_activity_cart" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.DataPenerima"
+            android:label="@string/title_activity_data_penerima" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.PetunjukTransfer"
+            android:label="@string/title_activity_petunjuk_transfer" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Konfirmasi"
+            android:label="@string/title_activity_konfirmasi" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.HistoryPemesanan"
+            android:label="@string/title_activity_history_pemesanan" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Amikom"
+            android:label="@string/title_activity_amikom" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Kosong"
+            android:label="@string/title_activity_kosong" >
+        </activity>
+        <activity
+            android:name="com.batikapp.activity.Amikompwt"
+            android:label="@string/title_activity_amikompwt" >
+        </activity>
+    </application>
+
+</manifest>

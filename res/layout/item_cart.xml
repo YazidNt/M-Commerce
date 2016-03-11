@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/garis" />
+
+    <TextView
+        android:id="@+id/itemkode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:text="Kode" />
+
+    <TextView
+        android:id="@+id/itemnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/itemkode"
+        android:text="Nama" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/itemtotal"
+        android:src="@drawable/garis" />
+
+    <TextView
+        android:id="@+id/itemharga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/itemkode"
+        android:text="Harga" />
+
+    <TextView
+        android:id="@+id/itemqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/itemharga"
+        android:layout_alignBottom="@+id/itemharga"
+        android:layout_alignLeft="@+id/itemnama"
+        android:text="Qty" />
+
+    <TextView
+        android:id="@+id/itemtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/itemqty"
+        android:layout_alignBottom="@+id/itemqty"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:text="Total" />
+
+    <TextView
+        android:id="@+id/itemukuran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/itemtotal"
+        android:layout_below="@+id/imageView1"
+        android:text="Ukuran" />
+
+</RelativeLayout>

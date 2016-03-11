@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Batik App</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_cart">Cart</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="menu_item">
+        <item> Halaman Depan </item>
+        <item> Produk </item>
+        <item> Login </item>
+        <item> Registrasi </item>
+        <item> Konfirmasi </item>
+        <item> Petunjuk Penggunaan </item>
+        <item> Tentang </item>
+        <item> Amikom </item>
+        <item> Keluar </item>
+    </string-array>
+    <string-array name="menu_icon">
+        <item> @drawable/halamandepan</item>
+        <item> @drawable/produk</item>
+        <item> @drawable/tentang</item>
+        <item> @drawable/login</item>
+        <item> @drawable/registrasi</item>
+        <item> @drawable/tentang</item>
+        <item> @drawable/tentang</item>
+        <item> @drawable/tentang</item>
+        <item> @drawable/keluar</item>
+    </string-array>
+
+    <string name="desc_list_icon"> item icon </string>
+    <string name="title_activity_halaman_depan">Halaman Depan</string>
+    <string name="title_activity_produk">Produk</string>
+    <string name="title_activity_tentang">Tentang</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registrasi">Registrasi</string>
+    <string name="title_activity_produk_item">Produk_item</string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="title_activity_petunjuk">Petunjuk</string>
+    <string name="title_activity_daftar_produk">Daftar Produk</string>
+    <string name="title_activity_detail__produk">Detail Produk</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_data_penerima">DataPenerima</string>
+    <string name="title_activity_petunjuk_transfer">PetunjukTransfer</string>
+    <string name="title_activity_konfirmasi">Konfirmasi</string>
+    <string name="title_activity_history_pemesanan">HistoryPemesanan</string>
+    <string name="title_activity_amikom">Amikom</string>
+    <string name="title_activity_kosong">Kosong</string>
+    <string name="title_activity_amikompwt">Amikompwt</string>
+
+</resources>
